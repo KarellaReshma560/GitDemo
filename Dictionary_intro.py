@@ -64,10 +64,11 @@ print(emp1.get("phone", 9672659084))
 
 print(emp1.get("id", 9672659084)) #even if gave default value for current Key, it will return only mentioned value while we created in the dictionary
 
+
 #membership operator --> in
 print("name" in emp1)  #output : TRUE
 print("phone" in emp1) #output : FALSE
-
+"""
 
 #Semester marks for same student
 sem1_marks = {"maths": 78.5, "eng": 71.0, "phy": 89.0}
@@ -75,6 +76,7 @@ print(sem1_marks)
 sem2_marks = {"chem" : 81.5, "biol": 90.5, "eng": 100.0, "chem": 90.0} #if we have same key-value pair, after updating it is overriding with new key-value pair
 print(sem2_marks)
 
+"""
 #update function in dictionaries
 sem1_marks.update(sem2_marks)  #we are updating sem2_marks(concatenating) with sem1_marks
 print(sem1_marks)
@@ -124,7 +126,7 @@ print(d6)
 
 #Because above are mutable, we are getting errors
 """
-
+"""
 #Values as lists
 student1 = {'id': 1, 'name': 'Reshma', 'marks': [89.5, 71, 81]}
 print(student1.get('marks'))
@@ -148,3 +150,4 @@ print(type(student2)) #class : dict
 print(student2.items(), type(student2.items()))
 #output: dict_items([('id', 2), ('name', 'Manikanta'), ('marks', {'eng': 89.5, 'maths': 71, 'bio': 81})]) <class 'dict_items'>
 
+"""

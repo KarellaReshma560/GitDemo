@@ -126,7 +126,7 @@ nums = [4,1.1,8,3,10,4,8,9,8,3,2.5]
 print(f"minimum number from list : {min(nums)}")
 print(f"maximum number from list : {max(nums)}")
 print(f"Total number from list : {sum(nums)}")
-'''
+
 
 #List inside a list (nested list)
 
@@ -139,3 +139,17 @@ print(l1[-2])
 print(l1[-2][0])
 print(l1[-2][-1])
 print(l1[-2][-1][0]) #lists inside list inside list
+'''
+
+#for loop
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+    print(thislist[i])
+
+#While loop for lists
+list1 = ["apple", "banana", "cherry"]
+i = 0
+while i < len(list1):
+    print(list1[i])
+    i = i + 1
+

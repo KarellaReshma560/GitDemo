@@ -109,7 +109,8 @@ weekends = {"Sat", "Sun"}
 # or "difference" keyword
 weekdays = days.difference(weekends)
 print(weekdays)
-
+"""
+"""
 #******Frozen set - Immutable **********
 #General set
 s1 = {1,2,3}
