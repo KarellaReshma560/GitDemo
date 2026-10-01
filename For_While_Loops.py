@@ -126,7 +126,7 @@ while True: #infinite loop
         attempt = attempt + 1
         print("Incorrect Password")
         if attempt > max_attempt:
-            print("No. of attemots done, Try again after some time")
+            print("No. of attempts done, Try again after some time")
             break
 
 print("Logged in")
